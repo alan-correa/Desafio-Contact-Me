@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.lg {
+    font-size: 45px;
+}
+
+.md {
+    font-size: 16px;
+}
+
+.sm {
+    font-size: 14px;
+}
+
+.xs {
+    font-size: 10px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.principal img {
+    width: 256px;
+}
+
+.principal p {
+    text-align: center;
+}
+
+
+.perfiles {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 16 0 272px;
+    border: 1px solid #e8ebe4;
+    background-color: #F4F0FF;
+}
+
+.perfil {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.usuario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    align-items: center;
+}
+
+.icons :hover {
+    color: #cdc3e6;
+}
+
+.contactos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 19px;
+    border: 1px solid #e8ebe4;
+}
+
+.personas {
+    display: flex;
+    align-items: center;
+}
+
+.datos {
+    margin-left: 16px;
+}
+
+.perfiles img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.nuevochat {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    padding: 20px;
+    border: 1px solid #e8ebe4;
+}
+
+.boton {
+    background-color: #a491d2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 13px 48px;
+}
+
+.nuevochat :hover {
+    color: #cdc3e6;
+}
+
+
